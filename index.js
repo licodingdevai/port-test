@@ -7,6 +7,8 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       status: 'healthy',
+      service: 'main-api',
+      port: PORT,
       timestamp: new Date().toISOString(),
       uptime: process.uptime()
     }));
