@@ -1,0 +1,11 @@
+{
+  "name": "port-test",
+  "version": "1.0.0",
+  "description": "Simple health check API for deployment testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["health", "api", "node"],
+  "license": "MIT"
+}
